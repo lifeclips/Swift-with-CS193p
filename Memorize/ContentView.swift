@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+    var body: some View { // 'behave' like a view.
+        RoundedRectangle(cornerRadius: 25)
         Text("Hello, world!")
-            .padding()
+            
     }
 }
 
